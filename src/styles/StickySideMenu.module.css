@@ -1,0 +1,21 @@
+.stickySideMenuContainer{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 20px 15px;
+        border-radius: 0 20px 20px 0;
+        height: 50vh;
+}
+.stickySideMenuContainer button{
+    display: flex;
+    background: none;
+    border: none;
+    outline: none;
+
+}
